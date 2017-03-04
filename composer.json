@@ -1,0 +1,20 @@
+{
+    "name": "borovets/test-ad",
+    "type": "The solution of the test task",
+    "autoload": {
+        "psr-4": {
+            "Borovets\\ADS\\": "src/"
+        },
+        "files": ["legacy-codebase.php"]
+    },
+    "authors": [
+        {
+            "name": "Oleksandr Borovets",
+            "email": "oleksandr.borovets@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.0",
+        "monolog/monolog": "^1.22"
+    }
+}
